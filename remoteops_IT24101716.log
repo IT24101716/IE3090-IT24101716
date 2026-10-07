@@ -1,0 +1,48 @@
+[2026-10-07 16:36:09] Agent started for IT24101716: listening on TCP port 9410 (SID:6171)
+[2026-10-07 16:36:28] 127.0.0.1:40270 CONNECTED
+[2026-10-07 16:36:52] 127.0.0.1:40270 AUTH success
+[2026-10-07 16:37:38] 127.0.0.1:40270 SYSINFO
+[2026-10-07 16:40:45] 127.0.0.1:40270 unknown command 'git'
+[2026-10-07 16:47:50] 127.0.0.1:40270 unknown command 'cd'
+[2026-10-07 17:32:50] Agent started for IT24101716: listening on TCP port 9410 (SID:6171)
+[2026-10-07 17:39:53] Agent started for IT24101716: listening on TCP port 9410 (SID:6171)
+[2026-10-07 17:41:48] 127.0.0.1:46052 CONNECTED
+[2026-10-07 17:43:25] 127.0.0.1:46052 'ss' refused: not authenticated
+[2026-10-07 17:46:15] Agent started for IT24101716: listening on TCP port 9410 (SID:6171)
+[2026-10-07 17:48:22] 127.0.0.1:48776 CONNECTED
+[2026-10-07 17:49:10] 127.0.0.1:48776 'SYSINFO' refused: not authenticated
+[2026-10-07 17:49:39] 127.0.0.1:48776 AUTH failed (attempt 1/3)
+[2026-10-07 17:50:00] 127.0.0.1:48776 AUTH success
+[2026-10-07 17:50:22] 127.0.0.1:48776 SYSINFO
+[2026-10-07 17:50:35] 127.0.0.1:48776 LISTPROC
+[2026-10-07 17:50:55] 127.0.0.1:48776 EXEC DATE
+[2026-10-07 17:51:07] 127.0.0.1:48776 EXEC 'rm' REJECTED (not in whitelist)
+[2026-10-07 17:54:52] 127.0.0.1:48776 unknown command 'prompt'
+[2026-10-07 17:56:36] 127.0.0.1:48776 PUT report.txt 32 bytes stored at ./agentfiles/IT24101716/report.txt (836 B/s)
+[2026-10-07 17:56:51] 127.0.0.1:48776 unknown command 'Get'
+[2026-10-07 17:57:07] 127.0.0.1:48776 GET report.txt 32 bytes sent (928586 B/s)
+[2026-10-07 17:57:24] 127.0.0.1:48776 GET nothere.txt -> not found
+[2026-10-07 17:58:57] 127.0.0.1:48776 GET nothere.txt -> not found
+[2026-10-07 17:59:18] 127.0.0.1:48776 MONITOR START -> UDP 5410 every 2s
+[2026-10-07 18:00:44] 127.0.0.1:48776 unknown command 'MMONI'
+[2026-10-07 18:02:29] 127.0.0.1:48776 unknown command 'MONITOT'
+[2026-10-07 18:03:02] 127.0.0.1:48776 DISCONNECTED (client closed)
+[2026-10-07 18:03:10] 127.0.0.1:38608 CONNECTED
+[2026-10-07 18:03:19] 127.0.0.1:38608 'MONIOR' refused: not authenticated
+[2026-10-07 18:03:47] 127.0.0.1:38608 'MONITOR' refused: not authenticated
+[2026-10-07 18:05:05] 127.0.0.1:38608 'SYSINFO' refused: not authenticated
+[2026-10-07 18:05:17] 127.0.0.1:38608 AUTH failed (attempt 1/3)
+[2026-10-07 18:05:50] 127.0.0.1:38608 AUTH success
+[2026-10-07 18:05:56] 127.0.0.1:38608 SYSINFO
+[2026-10-07 18:06:04] 127.0.0.1:38608 LISTPROC
+[2026-10-07 18:06:29] 127.0.0.1:38608 unknown command 'EXCE'
+[2026-10-07 18:06:42] 127.0.0.1:38608 EXEC DATE
+[2026-10-07 18:06:50] 127.0.0.1:38608 EXEC 'rm' REJECTED (not in whitelist)
+[2026-10-07 18:08:02] 127.0.0.1:38608 PUT report.txt 32 bytes stored at ./agentfiles/IT24101716/report.txt (788 B/s)
+[2026-10-07 18:08:16] 127.0.0.1:38608 GET report.txt 32 bytes sent (1524971 B/s)
+[2026-10-07 18:08:39] 127.0.0.1:38608 GET nothere.txt -> not found
+[2026-10-07 18:08:53] 127.0.0.1:38608 MONITOR START -> UDP 5410 every 2s
+[2026-10-07 18:10:42] 127.0.0.1:38608 unknown command 'prompt'
+[2026-10-07 18:10:47] 127.0.0.1:38608 unknown command 'prompt'
+[2026-10-07 18:12:04] 127.0.0.1:38608 MONITOR STOP
+[2026-10-07 18:12:38] 127.0.0.1:38608 QUIT
