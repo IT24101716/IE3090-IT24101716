@@ -1,0 +1,15 @@
+CC      = gcc
+CFLAGS  = -Wall -Wextra -O2 -pthread
+
+all: agent_716 controller_716
+
+agent_716: agent_716.c
+	$(CC) $(CFLAGS) -o $@ $<
+
+controller_716: controller_716.c
+	$(CC) $(CFLAGS) -o $@ $<
+
+clean:
+	rm -f agent_716 controller_716
+
+.PHONY: all clean
